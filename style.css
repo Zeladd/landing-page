@@ -3,3 +3,47 @@
     src: local("Roboto");
 }
 
+.dark-background {
+    background-color: #1F2937;
+}
+
+.main-text {
+    font-family: "Roboto";
+    font-weight: 800;
+    font-size: 48px;
+    color: #F6FAF5
+}
+
+.secondary-text {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+#logo {
+    font-family: "Roboto"; 
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.button-color {
+    background-color: #3882f6;
+}
+
+.info-text {
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937
+}
+
+.qu-back {
+    background-color: #E5E7EB;
+}
+
+.qu-text {
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
