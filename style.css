@@ -20,6 +20,12 @@
     color: #E5E7EB
 }
 
+.secondary-text a {
+    outline: none;
+    text-decoration: none;
+    color: #E5E7EB
+}
+
 #logo {
     font-family: "Roboto"; 
     font-size: 24px;
@@ -28,6 +34,8 @@
 
 .button-color {
     background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 25px;
 }
 
 .info-text {
