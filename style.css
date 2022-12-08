@@ -55,3 +55,20 @@
     font-weight: 300;
     color: #1F2937;
 }
+
+.flex-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-header h1 {
+    flex-grow: 5;
+    align-self: center;
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
