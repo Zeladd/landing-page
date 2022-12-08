@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 @font-face {
     font-family: "Roboto";
     src: local("Roboto");
@@ -33,9 +37,17 @@
 }
 
 .button-color {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
     background-color: #3882f6;
     color: #E5E7EB;
-    border-radius: 25px;
+    border-radius: 8px;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .info-text {
@@ -63,12 +75,41 @@
 }
 
 .flex-header h1 {
-    flex-grow: 5;
-    align-self: center;
 }
 
 .flex-nav {
     display: flex;
-    justify-content: space-around;
-    flex-grow: 1;
+    justify-content: space-evenly;
+    width: 20em;
+}
+
+.flex-main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.flex-main div {
+    flex-wrap: wrap;
+    width: 450px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.flex-main div h2 {
+    margin-bottom: 5px;
+}
+
+.flex-main div p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+img {
+    height: 12rem;
+    width: 23rem;
+    margin-top: 66px;
+    margin-right: 100px;
+    margin-left: 50px;
 }
