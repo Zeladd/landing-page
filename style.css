@@ -2,11 +2,6 @@ body {
     margin: 0;
 }
 
-@font-face {
-    font-family: "Roboto";
-    src: local("Roboto");
-}
-
 .dark-background {
     background-color: #1F2937;
 }
