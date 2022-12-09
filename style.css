@@ -54,13 +54,22 @@ body {
 
 .qu-back {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 
 .qu-text {
-    font-family: "Roboto";
+    font-family: "Roboto Italic";
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
+    quotes: none;
+    width: 50%;
+    height: auto;
 }
 
 .flex-header {
@@ -113,6 +122,7 @@ main img {
     justify-content: center;
     align-items: center;
     margin-top: 15px;
+    padding-bottom: 65px;
 }
 
 .flex-img-fig {
@@ -150,4 +160,11 @@ article div figure{
 #fig-html {
     padding-top: 3px;
     font-size: 15px;
+}
+
+.author {
+    font-family: "Roboto";
+    font-size: 16px;
+    display: flex;
+    flex-direction: row-reverse;
 }
