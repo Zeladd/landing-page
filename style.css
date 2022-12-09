@@ -168,3 +168,64 @@ article div figure{
     display: flex;
     flex-direction: row-reverse;
 }
+
+.motivational {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    width: 55rem;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    border: 1px solid #3882f6;
+    border-radius: 8px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.first-mot {
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-mot h3, .first-mot p {
+    margin: 0;
+}
+
+.first-mot h3 {
+    font-weight: 600;
+}
+
+.first-mot p {
+    font-size: 16px;
+}
+
+.second-mot {
+    display: flex;
+    align-items: center;
+}
+
+.second-mot button{
+    background-color: #3882f6;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 600;
+    color: #E5E7EB;
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+}
