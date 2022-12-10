@@ -108,7 +108,7 @@ body {
 }
 
 main img {
-    height: 12rem;
+    height: auto;
     width: 23rem;
     margin-top: 66px;
     margin-right: 100px;
